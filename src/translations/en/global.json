@@ -1,0 +1,60 @@
+{
+  "firstQuestion": {
+    "title": "What is your preferred language?",
+    "subTitle": "Choose language",
+    "option1": "English",
+    "option2": "French",
+    "option3": "German",
+    "option4": "Spanish"
+  },
+  "secondQuestion": {
+    "title": "What gender do you identify with?",
+    "subTitle": "Please share how do you identify yourself",
+    "option1": "Female",
+    "option2": "Male",
+    "option3": "Other"
+  },
+  "thirdQuestion": {
+    "title": "What is your age?",
+    "option1": "18-29 years",
+    "option2": "30-39 years",
+    "option3": "40-49 years",
+    "option4": "50+"
+  },
+  "fourthQuestion": {
+    "title": "What do you <span style='color: #E4229C;'>hate</span> the most in a book?",
+    "option1": "Lack of logic",
+    "option2": "A slow speed",
+    "option3": "Lack of humor",
+    "option4": "Way too generic ending",
+    "buttonText": "Next"
+  },
+  "fifthQuestion": {
+    "title": "What are your favorite topics?",
+    "subTitle": "Choose up to 3 topics you like",
+    "option1": "Werewolf",
+    "option2": "Romance",
+    "option3": "Action",
+    "option4": "Young Adult",
+    "option5": "Royal Obsession",
+    "option6": "Bad Boy",
+    "option7": "Billionaire",
+    "buttonText": "Next"
+  },
+  "loaderPage": {
+    "title": "Finding collections for you..."
+  },
+  "emailPage": {
+    "title": "Email",
+    "subTitle": "Enter your email to get full access",
+    "email": "Your email",
+    "agreement": "By continuing I agree with Privacy policy and Terms of use.",
+    "buttonText": "Next"
+  },
+  "finishPage": {
+    "title": "Thank you",
+    "subTitle": "for supporting us and passing quiz",
+    "download": "Download my answers",
+    "buttonText": "Retake quiz"
+  }
+}

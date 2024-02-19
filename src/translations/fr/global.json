@@ -1,0 +1,60 @@
+{
+  "firstQuestion": {
+    "title": "Quelle est votre langue préférée?",
+    "subTitle": "Choisissez la langue",
+    "option1": "Anglais",
+    "option2": "Français",
+    "option3": "Allemand",
+    "option4": "Espagnol"
+  },
+  "secondQuestion": {
+    "title": "Avec quel genre vous identifiez-vous?",
+    "subTitle": "Veuillez indiquer comment vous vous identifiez",
+    "option1": "Femme",
+    "option2": "Homme",
+    "option3": "Autre"
+  },
+  "thirdQuestion": {
+    "title": "Quel âge avez-vous?",
+    "option1": "18-29 ans",
+    "option2": "30-39 ans",
+    "option3": "40-49 ans",
+    "option4": "50+"
+  },
+  "fourthQuestion": {
+    "title": "Qu’est-ce que tu <span style='color: #E4229C;'>détestes</span> le plus dans un livre ?",
+    "option1": "Manque de logique",
+    "option2": "Vitesse lente",
+    "option3": "Manque d'humour",
+    "option4": "Fin beaucoup trop générique",
+    "buttonText": "Suivant"
+  },
+  "fifthQuestion": {
+    "title": "Quels sont vos sujets préférés?",
+    "subTitle": "Choisissez jusqu'à 3 sujets que vous aimez",
+    "option1": "Loup-garou",
+    "option2": "Romance",
+    "option3": "Action",
+    "option4": "Jeunesse",
+    "option5": "Obsession royale",
+    "option6": "Mauvais garçon",
+    "option7": "Milliardaire",
+    "buttonText": "Suivant"
+  },
+  "loaderPage": {
+    "title": "Recherche de collections pour vous..."
+  },
+  "emailPage": {
+    "title": "Email",
+    "subTitle": "Entrez votre adresse e-mail pour accéder à toutes les fonctionnalités",
+    "email": "Votre email",
+    "agreement": "En continuant, j'accepte la politique de confidentialité et les conditions d'utilisation.",
+    "buttonText": "Suivant"
+  },
+  "finishPage": {
+    "title": "Merci",
+    "subTitle": "pour votre soutien et avoir passé le quiz",
+    "download": "Télécharger mes réponses",
+    "buttonText": "Refaire le quiz"
+  }
+}

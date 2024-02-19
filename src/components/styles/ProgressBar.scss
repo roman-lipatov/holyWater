@@ -1,0 +1,40 @@
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: 800;
+  align-items: center;
+}
+
+.topBar {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.dots {
+ display: flex;
+ gap: 4px;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background: rgb(0, 0, 0);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 50%;
+}
+
+.arrow{ 
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}

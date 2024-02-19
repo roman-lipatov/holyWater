@@ -1,0 +1,60 @@
+{
+  "firstQuestion": {
+    "title": "¿Cuál es su idioma preferido?",
+    "subTitle": "Elige el idioma",
+    "option1": "Inglés",
+    "option2": "Francés",
+    "option3": "Alemán",
+    "option4": "Español"
+  },
+  "secondQuestion": {
+    "title": "¿Con qué género te identificas?",
+    "subTitle": "Por favor, comparte cómo te identificas",
+    "option1": "Femenino",
+    "option2": "Masculino",
+    "option3": "Otro"
+  },
+  "thirdQuestion": {
+    "title": "¿Cuál es tu edad?",
+    "option1": "18-29 años",
+    "option2": "30-39 años",
+    "option3": "40-49 años",
+    "option4": "50+"
+  },
+  "fourthQuestion": {
+    "title": "¿Qué es lo que más <span style='color: #E4229C;'>odias</span> en un libro?",
+    "option1": "Falta de lógica",
+    "option2": "Velocidad lenta",
+    "option3": "Falta de humor",
+    "option4": "Final demasiado genérico",
+    "buttonText": "Siguiente"
+  },
+  "fifthQuestion": {
+    "title": "¿Cuáles son tus temas favoritos?",
+    "subTitle": "Elige hasta 3 temas que te gusten",
+    "option1": "Hombre lobo",
+    "option2": "Romance",
+    "option3": "Acción",
+    "option4": "Juvenil",
+    "option5": "Obsesión real",
+    "option6": "Chico malo",
+    "option7": "Billonario",
+    "buttonText": "Siguiente"
+  },
+  "loaderPage": {
+    "title": "Buscando colecciones para ti..."
+  },
+  "emailPage": {
+    "title": "Correo electrónico",
+    "subTitle": "Ingrese su correo electrónico para obtener acceso completo",
+    "email": "Tu correo electrónico",
+    "agreement": "Al continuar, acepto la política de privacidad y los términos de uso.",
+    "buttonText": "Siguiente"
+  },
+  "finishPage": {
+    "title": "Gracias",
+    "subTitle": "por su apoyo y pasar el cuestionario",
+    "download": "Descargar mis respuestas",
+    "buttonText": "Repetir cuestionario"
+  }
+}
