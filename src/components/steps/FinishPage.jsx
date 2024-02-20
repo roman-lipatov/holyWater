@@ -20,11 +20,17 @@ export const FinishPage = () => {
       setQuizData(storedData);
   }, []);
 
-
-    const handleRetakeQuiz = () => {
-        localStorage.clear();
+  const handleRetakeQuiz = () => {
+    localStorage.clear();
+    const isGitHubPages = window.location.hostname.includes("github.io");
+    
+    
+    if (isGitHubPages) {
+        window.location.href = "/question1";
+    } else {
         window.location.href = "/";
     }
+}
 
     const generateCSV = () => {
       const csvContent =
