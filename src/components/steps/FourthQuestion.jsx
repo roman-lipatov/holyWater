@@ -93,7 +93,8 @@ export const FourthQuestion = () => {
           />
         </label>
         <br />
-        <label className="checkButton" data-label={translation("fourthQuestion.option4")}>
+  
+        <label className="checkButton" data-label={translation("fourthQuestion.option4")} style={{marginBottom:"60px"}}>
           {translation("fourthQuestion.option4")}
           <input
             type="checkbox"
