@@ -26,7 +26,7 @@ export const FinishPage = () => {
     
     
     if (isGitHubPages) {
-        window.location.href = "/question1";
+        window.location.href = "https://roman-lipatov.github.io/";
     } else {
         window.location.href = "/";
     }

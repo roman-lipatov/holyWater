@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
   const navigate = useNavigate();
 
   useEffect(() => {
-    const redirectTo = '/question1';
+    const redirectTo = '/holywater';
     navigate(redirectTo);
   }, [navigate]);
 
