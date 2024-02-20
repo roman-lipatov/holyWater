@@ -13,8 +13,8 @@ import { ExternalRedirect } from './components/redirect';
 export const RoutesComponent = () => {
   return (
     <Routes>
-      <Route path="/"  element={<FirstQuestion />} />
-      <Route path="/question1"  element={<FirstQuestion />} />
+      <Route path="/" element={<FirstQuestion />} />
+      <Route path="/question1" element={<FirstQuestion />} />
       <Route path="/question2" element={<SecondQuestion />} />
       <Route path="/question3" element={<ThirdQuestion />} />
       <Route path="/question4" element={<FourthQuestion />} />
