@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/holywater/static/css/main.ace6e795.css",
-    "main.js": "/holywater/static/js/main.c64947b0.js",
+    "main.css": "/holywater/static/css/main.f3c1243a.css",
+    "main.js": "/holywater/static/js/main.ed9f22b7.js",
     "index.html": "/holywater/index.html",
-    "main.ace6e795.css.map": "/holywater/static/css/main.ace6e795.css.map",
-    "main.c64947b0.js.map": "/holywater/static/js/main.c64947b0.js.map"
+    "main.f3c1243a.css.map": "/holywater/static/css/main.f3c1243a.css.map",
+    "main.ed9f22b7.js.map": "/holywater/static/js/main.ed9f22b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ace6e795.css",
-    "static/js/main.c64947b0.js"
+    "static/css/main.f3c1243a.css",
+    "static/js/main.ed9f22b7.js"
   ]
 }
