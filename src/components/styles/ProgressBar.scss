@@ -4,11 +4,12 @@
   flex-direction: column;
   color: white;
   font-weight: 800;
+  justify-content: center;
   align-items: center;
 }
 
 .topBar {
-  width: 500px;
+  width: 375px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,3 +39,4 @@
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+

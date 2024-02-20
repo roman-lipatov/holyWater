@@ -8,12 +8,13 @@ import { FifthQuestion } from './components/steps/FifthQuestion'
 import { EmailPage } from './components/steps/EmailPage'
 import { Loader } from './components/steps/Loader'
 import { FinishPage } from './components/steps/FinishPage'
+import { ExternalRedirect } from './components/redirect';
 
 export const RoutesComponent = () => {
   return (
     <Routes>
-      <Route path="/" element={<FirstQuestion />} />
       <Route path="/question1"  element={<FirstQuestion />} />
+      <Route path="/*" element={<ExternalRedirect />} />
       <Route path="/question2" element={<SecondQuestion />} />
       <Route path="/question3" element={<ThirdQuestion />} />
       <Route path="/question4" element={<FourthQuestion />} />

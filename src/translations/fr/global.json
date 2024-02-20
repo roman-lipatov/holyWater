@@ -48,7 +48,7 @@
     "title": "Email",
     "subTitle": "Entrez votre adresse e-mail pour accéder à toutes les fonctionnalités",
     "email": "Votre email",
-    "agreement": "En continuant, j'accepte la politique de confidentialité et les conditions d'utilisation.",
+    "agreement": "En continuant, j'accepte la <span style='color: #E4229C;'>politique de confidentialité</span> et <br><span style='color: #E4229C;'>les conditions d'utilisation.</span>",
     "buttonText": "Suivant"
   },
   "finishPage": {

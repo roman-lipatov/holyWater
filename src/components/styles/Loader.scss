@@ -1,4 +1,5 @@
 .loader-container {
+  margin-top: 180px;
   position: relative;
   width: 252px; 
   height: 252px; 
@@ -8,6 +9,11 @@
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+.loader-text {
+  color: white;
+  font-size: 17px;
 }
 
 .progress {
@@ -43,7 +49,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 52px;
+  color: white;
+  font-weight: 700;
+
 }
 
 @keyframes fillLoader {

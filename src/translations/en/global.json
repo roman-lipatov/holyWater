@@ -48,7 +48,7 @@
     "title": "Email",
     "subTitle": "Enter your email to get full access",
     "email": "Your email",
-    "agreement": "By continuing I agree with Privacy policy and Terms of use.",
+    "agreement": "By continuing I agree with <span style='color: #E4229C;'>Privacy policy</span> and <br><span style='color: #E4229C;'>Terms of use.</span>",
     "buttonText": "Next"
   },
   "finishPage": {

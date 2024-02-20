@@ -48,7 +48,7 @@
     "title": "E-Mail",
     "subTitle": "Geben Sie Ihre E-Mail ein, um vollen Zugriff zu erhalten",
     "email": "Ihre E-Mail",
-    "agreement": "Durch die Fortsetzung stimme ich der Datenschutzrichtlinie und den Nutzungsbedingungen zu.",
+    "agreement": "Durch die Fortsetzung stimme ich der <span style='color: #E4229C;'>Datenschutzrichtlinie</span> und<br> <span style='color: #E4229C;'>den Nutzungsbedingungen zu.</span>",
     "buttonText": "Weiter"
   },
   "finishPage": {

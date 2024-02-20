@@ -48,7 +48,7 @@
     "title": "Correo electrónico",
     "subTitle": "Ingrese su correo electrónico para obtener acceso completo",
     "email": "Tu correo electrónico",
-    "agreement": "Al continuar, acepto la política de privacidad y los términos de uso.",
+    "agreement": "Al continuar, acepto la <span style='color: #E4229C;'>política de privacidad</span> y <br><span style='color: #E4229C;'>los términos de uso.</span>",
     "buttonText": "Siguiente"
   },
   "finishPage": {
