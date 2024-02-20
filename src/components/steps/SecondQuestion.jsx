@@ -39,7 +39,7 @@ export const SecondQuestion = () => {
     <div className="container">
       <ProgressBar />
       <h1>{translation("secondQuestion.title")}</h1>
-      <h2>{translation("secondQuestion.subTitle")}</h2>
+      <h2 style={{textAlign: "center"}}>{translation("secondQuestion.subTitle")}</h2>
       <div className="iconButtons">
         <button 
           className="iconButton"

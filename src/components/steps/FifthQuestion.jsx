@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { ProgressBar } from "./ProgressBar";
 import "../styles/CommonStyles.scss";
 import { useTranslation } from "react-i18next";
@@ -18,6 +18,8 @@ export const FifthQuestion = () => {
         type: "buble",
         answer: [],
       });
+
+      let ageQuizObj = JSON.parse(localStorage.getItem('ageQuiz'));
 
       const handleOptionClick = (option) => {
         if (selectedOptions.includes(option)) {
@@ -51,12 +53,20 @@ export const FifthQuestion = () => {
 
         <div className="emojiButtons">
           <div className="firstSection">
-            <button 
-               className={`emojiButton ${selectedOptions.includes(translation("fifthQuestion.option1")) ? 'selected' : ''}`}
-              onClick={() => handleOptionClick(translation("fifthQuestion.option1"))}
-            > <span className="emojiButton_emoji">🐺</span>
-              {translation("fifthQuestion.option1")}
-            </button>
+            {ageQuizObj.answer.includes('30-39') ? (
+               <button 
+                className={`emojiButton ${selectedOptions.includes(translation("fifthQuestion.option8")) ? 'selected' : ''}`}
+                onClick={() => handleOptionClick(translation("fifthQuestion.option8"))}
+              > <span className="emojiButton_emoji">🇺🇦</span>
+                {translation("fifthQuestion.option8")}
+              </button>
+            ) : ( <button 
+              className={`emojiButton ${selectedOptions.includes(translation("fifthQuestion.option1")) ? 'selected' : ''}`}
+             onClick={() => handleOptionClick(translation("fifthQuestion.option1"))}
+           > <span className="emojiButton_emoji">🐺</span>
+             {translation("fifthQuestion.option1")}
+           </button>)}
+           
             <button 
                className={`emojiButton ${selectedOptions.includes(translation("fifthQuestion.option2")) ? 'selected' : ''}`}
               onClick={() => handleOptionClick(translation("fifthQuestion.option2"))}
@@ -65,12 +75,22 @@ export const FifthQuestion = () => {
             </button>
           </div>
           <div className="secondSection">
+            {ageQuizObj.answer.includes('18-29') ? (
+              <button
+                className={`emojiButton ${selectedOptions.includes(translation("fifthQuestion.option9")) ? 'selected' : ''}`}
+                onClick={() => handleOptionClick(translation("fifthQuestion.option9"))}
+              > <span className="emojiButton_emoji">🦹‍♂️</span>
+                {translation("fifthQuestion.option9")}
+              </button>
+            ) : (
             <button
               className={`emojiButton ${selectedOptions.includes(translation("fifthQuestion.option3")) ? 'selected' : ''}`}
               onClick={() => handleOptionClick(translation("fifthQuestion.option3"))}
             > <span className="emojiButton_emoji">💃</span>
               {translation("fifthQuestion.option3")}
             </button>
+            )}
+            
             <button 
               className={`emojiButton ${selectedOptions.includes(translation("fifthQuestion.option4")) ? 'selected' : ''}`}
               onClick={() => handleOptionClick(translation("fifthQuestion.option4"))}
@@ -80,12 +100,21 @@ export const FifthQuestion = () => {
           </div>
 
           <div className="thirdSection">
+          {ageQuizObj.answer.includes('40-49') ? (
+            <button 
+              className={`emojiButton ${selectedOptions.includes(translation("fifthQuestion.option10")) ? 'selected' : ''}`}
+              onClick={() => handleOptionClick(translation("fifthQuestion.option10"))}
+            > <span className="emojiButton_emoji">🛠</span>
+              {translation("fifthQuestion.option10")}
+            </button>
+          ) : (
             <button 
               className={`emojiButton ${selectedOptions.includes(translation("fifthQuestion.option5")) ? 'selected' : ''}`}
               onClick={() => handleOptionClick(translation("fifthQuestion.option5"))}
             > <span className="emojiButton_emoji">👑</span>
               {translation("fifthQuestion.option5")}
             </button>
+          )}
             <button
               className={`emojiButton ${selectedOptions.includes(translation("fifthQuestion.option6")) ? 'selected' : ''}`}
               onClick={() => handleOptionClick(translation("fifthQuestion.option6"))}
