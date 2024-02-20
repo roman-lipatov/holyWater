@@ -1,8 +1,8 @@
 {
+  "homepage": "https://roman-lipatov.github.io/holywater",
   "name": "holywater",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/roman-lipatov/holywater",
   "dependencies": {
     "@fontsource/nunito": "^5.0.16",
     "@fontsource/nunito-sans": "^5.0.8",
