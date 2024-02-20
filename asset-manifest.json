@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/roman-lipatov/holywater/static/css/main.ace6e795.css",
-    "main.js": "/roman-lipatov/holywater/static/js/main.9ded1c9b.js",
-    "index.html": "/roman-lipatov/holywater/index.html",
-    "main.ace6e795.css.map": "/roman-lipatov/holywater/static/css/main.ace6e795.css.map",
-    "main.9ded1c9b.js.map": "/roman-lipatov/holywater/static/js/main.9ded1c9b.js.map"
+    "main.css": "/holywater/static/css/main.ace6e795.css",
+    "main.js": "/holywater/static/js/main.9ded1c9b.js",
+    "index.html": "/holywater/index.html",
+    "main.ace6e795.css.map": "/holywater/static/css/main.ace6e795.css.map",
+    "main.9ded1c9b.js.map": "/holywater/static/js/main.9ded1c9b.js.map"
   },
   "entrypoints": [
     "static/css/main.ace6e795.css",
