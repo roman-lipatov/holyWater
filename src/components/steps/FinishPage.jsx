@@ -27,7 +27,7 @@ export const FinishPage = () => {
     if (isGitHubPages) {
         window.location.href = "/holywater/";
     } else {
-        window.location.href = "/";
+        window.location.href = "/holywater";
     }
   }
 
