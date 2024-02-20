@@ -54,10 +54,10 @@ export const FinishPage = () => {
     return (
       <div className="container" style={{paddingTop:"110px"}}>
         <h1 style={{fontFamily:"Niconne, sans-serif", fontSize:"45px", fontWeight:"400", margin: 0}}>{translation("finishPage.title")}</h1>
-        <h2>{translation("finishPage.subTitle")}</h2>
+        <h2 style={{textAlign:"center"}}>{translation("finishPage.subTitle")}</h2>
         <img src={doneImage} style={{paddingTop:"40px"}}/>
         <div className="download">
-        <img src={downloadImage} style={{width:"42px", height:"42px"}}/>
+        <img src={downloadImage} style={{width:"30px", height:"30px"}}/>
         <p onClick={generateCSV}>{translation("finishPage.download")}</p>
         </div>
         <button

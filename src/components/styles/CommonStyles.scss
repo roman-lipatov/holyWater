@@ -30,7 +30,7 @@ h2 {
   height: 60px;
   width: 320px;
   font-weight: 400;
-  size: 17px;
+  font-size: 17px;
   background-color: #36173D;
   color: white;
   border-radius: 16px;
@@ -101,7 +101,7 @@ h2 {
 .nextButton {
   width: 335px;
   height: 56px;
-  position: fixed;
+  // position: fixed;
   bottom: 0;
   margin-bottom: 30px;
   border: none;
@@ -150,7 +150,7 @@ input[type=checkbox] {
   display: flex;
   width: 375px;
   gap: 12px;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .emojiButton {
@@ -168,9 +168,9 @@ input[type=checkbox] {
   &_emoji {
     font-size: 1.5em;
    }
-   &:hover {
-     border: 2px solid #E4229B;
-   }
+  //  &:hover {
+  //    border: 2px solid #E4229B;
+  //  }
    &.selected,
    &:active {
      border: 2px solid #E4229B;
@@ -219,6 +219,7 @@ input[type=email] {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 70px;
 }
 
 .emailText {
