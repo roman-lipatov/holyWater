@@ -24,13 +24,12 @@ export const FinishPage = () => {
     localStorage.clear();
     const isGitHubPages = window.location.hostname.includes("github.io");
     
-    
     if (isGitHubPages) {
-        window.location.href = "https://roman-lipatov.github.io/";
+        window.location.href = "/holywater/";
     } else {
         window.location.href = "/";
     }
-}
+  }
 
     const generateCSV = () => {
       const csvContent =

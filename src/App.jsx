@@ -5,7 +5,7 @@ import RoutesComponent from './routes';
 
 export const App = () =>  {
   return (
-    <Router>
+    <Router basename='/holywater'>
     
     <div className='App'>
     <RoutesComponent />
